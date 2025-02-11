@@ -1,0 +1,13 @@
+{
+  "name": "file-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./reader.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
