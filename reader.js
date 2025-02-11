@@ -89,7 +89,12 @@ const operateFiles = async (
 
   // 确保备份目录存在
   if (!fs.existsSync(backupDir)) {
-    await fs.promises.mkdir(backupDir);
+    try {
+      await fs.promises.mkdir(backupDir, { recursive: true });
+    } catch (err) {
+      console.error("创建备份目录失败:", err);
+      return;
+    }
   }
   await processFiles();
 };
