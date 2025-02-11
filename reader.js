@@ -28,7 +28,6 @@ const operateFiles = async (
 ) => {
   // 备份文件夹
   const backupDir = path.join(directoryPath, "map_bk", formatNow());
-  console.log(backupDir);
 
   const processFiles = async () => {
     console.log(`-----开始执行-----`);
