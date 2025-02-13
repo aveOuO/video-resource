@@ -183,7 +183,7 @@ const copyAllBinFiles = async (directoryPath, oriMapDir) => {
     );
     if (successfulCopies) return console.log(`已将文件备份至: ${oriMapDir}`);
     // 如果没有成功复制任何文件，则删除 ori_map 目录
-    await fs.promises.rmdir(oriMapDir, { recursive: true });
+    await fs.promises.rm(oriMapDir, { recursive: true });
   } catch (err) {
     console.error("发生错误:", err);
   }
