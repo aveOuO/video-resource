@@ -89,6 +89,10 @@ const operateFiles = async (
       minY = Math.min(minY, file.y);
       maxY = Math.max(maxY, file.y);
     }
+    minX = Math.max(minX, xStart);
+    maxX = Math.min(maxX, xEnd);
+    minY = Math.max(minY, yStart);
+    maxY = Math.min(maxY, yEnd);
 
     for (let x = minX; x <= maxX; x++) {
       for (let y = minY; y <= maxY; y++) {
