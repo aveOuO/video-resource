@@ -6,14 +6,25 @@
 
 按如下方法执行程序，填入794 1121 849 1189然后执行剪切操作即可将整个罗斯伍德加载好的区块移除，进入游戏前往罗斯伍德就会刷新车辆和物资，访问过的区块后加载mod地图不出现也可以这么操作。
 
-方法一：下载[reader.js](https://github.com/aveOuO/video-resource/releases/download/0.0.4/reader.js)
+方法一：下载[reader.js](https://github.com/aveOuO/video-resource/releases/download/0.0.5/reader.js)
 
 通过node运行
 
-![image](https://github.com/user-attachments/assets/83e4389a-6668-475c-9cf6-3aa95bc1bc31)
+假设有如下map文件我的安全屋在罗斯伍德假设区块目前是110 110到120 120，我想让罗斯伍德之外的区块全部重新生成，可以选择操作2然后输入区块坐标起点和终点xy位置。
 
-方法二：下载[reader.exe](https://github.com/aveOuO/video-resource/releases/download/0.0.4/reader.exe)
+![image](https://github.com/user-attachments/assets/87991ab8-f812-4ee5-ac19-4ec7537b8603)
 
-直接运行exe文件根据提示输入信息即可
+上面选中7个文件则不是罗斯伍德的区块将会被移到同目录下map_bk中，此文件夹不是游戏生成的，如果没有此文件夹运行此程序会自动生成，等待执行操作完成。
 
-![image](https://github.com/user-attachments/assets/e2c39c5b-59cf-45fe-89b8-67d4d6da0d1f)
+![image](https://github.com/user-attachments/assets/bc651e1b-c1c6-47a2-a229-e720d517774f)
+
+![image](https://github.com/user-attachments/assets/ce94ad38-9823-4f3b-8554-0d666c0855ea)
+
+![image](https://github.com/user-attachments/assets/97fb4317-4a04-432d-8557-55486c9a21cd)
+
+方法二：下载[reader.exe](https://github.com/aveOuO/video-resource/releases/download/0.0.5/reader.exe)
+
+不想下node可以通过下载exe文件执行，右键管理员运行，操作步骤跟方法一的一致。
+
+![image](https://github.com/user-attachments/assets/d761a60a-0e63-43b8-a2c9-d77fb4876f12)
+
